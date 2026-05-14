@@ -28,7 +28,7 @@ export default function HomePage() {
       const data = await response.json();
 
       if (response.ok) {
-        setMessage('✅ Imèl la ak fichye Excel la voye byen!');
+        setMessage('✅ Imèl la ak fichye Excel la byen ale!');
         setFullName('');
         setEmail('');
       } else {
@@ -43,7 +43,7 @@ export default function HomePage() {
 
   return (
     <div style={{ maxWidth: 500, margin: '80px auto', padding: '30px', fontFamily: 'Arial, sans-serif', boxShadow: '0 2px 10px rgba(0,0,0,0.1)', borderRadius: '8px' }}>
-      <h2 style={{ textAlign: 'center', color: '#333' }}>📧 Resevwa Fichye Excel pa Imèl</h2>
+      <h2 style={{ textAlign: 'center', color: '#333' }}> Resevwa Fichye Excel pa Imèl</h2>
       <p style={{ textAlign: 'center', color: '#666' }}>Ranpli fòmilè a pou w resevwa yon fichye Excel ak enfòmasyon w yo.</p>
       
       <form onSubmit={handleSubmit}>
@@ -121,6 +121,41 @@ export default function HomePage() {
           {message}
         </div>
       )}
+   <div style={{
+  marginTop: '50px',
+  padding: '20px',
+  background: '#1a73e8',
+  color: 'white',
+  textAlign: 'center',
+  borderRadius: '8px',
+  fontFamily: 'Arial, sans-serif'
+}}>
+  <p style={{
+    fontSize: '15px',
+    margin: '0 0 8px 0',
+    lineHeight: '1.6'
+  }}>
+    Site sa a kreye pa <strong>Jerry Innocent</strong> pou etidyan <strong>Calvary Chapel</strong>.
+  </p>
+  <p style={{
+    fontSize: '14px',
+    margin: '0'
+  }}>
+    Pòtfolyo:{' '}
+    <a 
+      href="https://portfolio-jerry-six.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      style={{
+        color: '#FFD700',
+        textDecoration: 'none',
+        fontWeight: 'bold'
+      }}
+    >
+      portfolio-jerry-six.vercel.app
+    </a>
+  </p>
+</div>
     </div>
   );
 }

@@ -87,9 +87,9 @@ export async function POST(request) {
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px;">
           <h2 style="color: #007bff;">Bonjou ${fullName}!</h2>
-          <p>Men fichye Excel ou te mande a.</p>
+          <p>Men fichye Excel nou pral fe fitraj la.</p>
           <hr/>
-          <p style="color: #666;">Mèsi dèske w itilize sèvis nou an!</p>
+          <p style="color: #666;">Mèsi dèske w itilize sèvis nou an! jeyservices</p>
         </div>
       `,
       attachments: [
