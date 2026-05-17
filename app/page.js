@@ -148,7 +148,6 @@ export default function HomePage() {
             rel="noopener noreferrer"
             style={{
               color: '#e1e8f3',        // ble (ou ka itilize 'blue' tou)
-             
               textDecoration: 'none',
               fontWeight: 'bold'
             }}
